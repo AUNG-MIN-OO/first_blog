@@ -1,0 +1,110 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.cover{
+    background: url("../vendor/images/live-background.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+/*nav bar css*/
+.logo a{
+    text-decoration: none;
+}
+.header{
+    position: sticky;
+    top: 0;
+    z-index: 2000;
+    background-color: white;
+}
+.nav-bar li{
+    list-style: none;
+    margin-right: 10px;
+    text-transform: uppercase;
+    position: relative;
+    transition: cubic-bezier(.77,0,.18,1) 0.5s;
+}
+.nav-bar li:hover{
+    -moz-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+.nav-bar li::after{
+    content: '';
+    display: block;
+    width: 0;
+    position: absolute;
+    left: 50%;
+    height: 2px;
+    background: black;
+    transition: cubic-bezier(.77,0,.18,1) 0.5s;
+}
+.nav-bar li:hover::after{
+    width: 90%;
+    left: 5%;
+}
+.nav-bar li a:hover{
+    color: #00000080;
+}
+.nav-bar li a{
+    text-decoration: none;
+    color: #a9a9a9;
+    font-weight: bold;
+}
+
+/*cover-area*/
+.cover-img{
+    width: 100%;
+    height: 500px;
+}
+/*cover-area end*/
+/*content-area start*/
+.content-area .content{
+
+}
+.categories ul li{
+    border: none;
+    padding: 5px 20px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    background-color: grey;
+}
+.post-detail{
+    width: 70%;
+    margin: auto;
+}
+.post-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*content-area end*/
+
+
+/*footer*/
+footer{
+    margin-top: 20px;
+    background-color: black;
+    height: 100px;
+}
+.foot{
+    height: 100%;
+    position: relative;
+}
+.foot h4{
+    margin-top: 50px;
+}
+.go-to-top-btn{
+    position: absolute;
+    top: 25px;
+    right: 50px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
