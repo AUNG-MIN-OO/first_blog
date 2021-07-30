@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="asset/vendor/boostrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="asset/vendor/owlcarousel/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="asset/vendor/owlcarousel/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="asset/CSS/common.css">
     <link rel="stylesheet" href="asset/CSS/style.css">
 </head>
@@ -63,7 +64,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="blog-content" data-aos="fade-in" data-aos-delay="200">
+                    <div class="blog-content" data-aos="flip-up" data-aos-delay="200">
                         <div class="card contents me-4">
                             <h3 class="card-title text-center content-title mt-3">Lorem ipsum dolor sit amet</h3>
                             <hr>
@@ -124,7 +125,7 @@
                     <div class="col-9">
                         <div class="row content-area mb-4">
                             <div class="col-6">
-                                <div class="card contents shadow">
+                                <div class="card contents shadow" data-aos="fade-right" data-aos-delay="200">
                                     <h3 class="card-title text-center content-title mt-3">Lorem ipsum dolor sit amet</h3>
                                     <hr>
                                     <div class="card-body content-text">
@@ -136,7 +137,7 @@
                                 </div>
                             </div>
                             <div class="col-6">
-                                <div class="card contents shadow">
+                                <div class="card contents shadow" data-aos="fade-left" data-aos-delay="200">
                                     <h3 class="card-title text-center content-title mt-3">Lorem ipsum dolor sit amet</h3>
                                     <hr>
                                     <div class="card-body content-text">
@@ -146,7 +147,8 @@
                             </div>
                         </div>
                         <div class="row content-area mb-4">
-                            <div class="col-12">
+                            <div class="col-12" data-aos="fade-up"
+                                 data-aos-delay="200">
                                 <div class="card contents shadow">
                                     <h3 class="card-title text-center content-title mt-3">Lorem ipsum dolor sit amet</h3>
                                     <hr>
@@ -158,7 +160,7 @@
                         </div>
                         <div class="row content-area mb-4">
                             <div class="col-6">
-                                <div class="card contents shadow">
+                                <div class="card contents shadow" data-aos="fade-right" data-aos-delay="200">
                                     <h3 class="card-title text-center content-title mt-3">Lorem ipsum dolor sit amet</h3>
                                     <hr>
                                     <div class="card-body content-text">
@@ -167,7 +169,7 @@
                                 </div>
                             </div>
                             <div class="col-6">
-                                <div class="card contents shadow">
+                                <div class="card contents shadow" data-aos="fade-left" data-aos-delay="200">
                                     <h3 class="card-title text-center content-title mt-3">Lorem ipsum dolor sit amet</h3>
                                     <hr>
                                     <div class="card-body content-text">
@@ -181,12 +183,18 @@
                         <div class="categories">
                             <h3 class="text-center">Categories</h3>
                             <ul class="p-0">
-                                <li><a href="#">Health</a></li>
-                                <li><a href="#">Sport</a></li>
-                                <li><a href="#">Entertainment</a></li>
-                                <li><a href="#">Health</a></li>
-                                <li><a href="#">Sport</a></li>
-                                <li><a href="#">Entertainment</a></li>
+                                <li data-aos="fade-left"
+                                    data-aos-duration="200"><a href="#">Health</a></li>
+                                <li data-aos="fade-left"
+                                    data-aos-duration="400"><a href="#">Sport</a></li>
+                                <li data-aos="fade-left"
+                                    data-aos-duration="600"><a href="#">Entertainment</a></li>
+                                <li data-aos="fade-left"
+                                    data-aos-duration="800"><a href="#">Health</a></li>
+                                <li data-aos="fade-left"
+                                    data-aos-duration="1000"><a href="#">Sport</a></li>
+                                <li data-aos="fade-left"
+                                    data-aos-duration="1200"><a href="#">Entertainment</a></li>
                             </ul>
                         </div>
                         <div class="follow">
@@ -216,6 +224,7 @@
 <script src="asset/vendor/owlcarousel/owl.carousel.min.js"></script>
 <script src="asset/vendor/boostrap/js/bootstrap.min.js"></script>
 <script src="asset/vendor/fontawesome/js/all.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>\
 <script src="asset/Js/all.js"></script>
 
 </body>
